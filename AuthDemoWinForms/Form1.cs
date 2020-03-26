@@ -11,7 +11,7 @@ namespace AuthDemoWinForms
     {
         private static bool loggeIn = false;
         private static readonly string[] scopes = { "user.read" };
-        public static IPublicClientApplication PublicClientApp;
+        
         public Form1()
         {
             InitializeComponent();
