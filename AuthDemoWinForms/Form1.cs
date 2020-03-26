@@ -94,6 +94,7 @@ namespace AuthDemoWinForms
                 {
                     await Program.PublicClientApp.RemoveAsync(accounts.FirstOrDefault());
                     this.label1.Text = "User has signed-out";
+                    this.label4.Text = "User has signed-out";
                 }
                 catch (MsalException ex)
                 {
